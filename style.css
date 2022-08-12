@@ -1,0 +1,181 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* utility classes */
+.flexy{
+    display: flex;
+    align-items: center;
+}
+
+
+/* navabar section */
+
+.navbar-container {
+    justify-content: space-between;
+    font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+}
+
+.list {
+    justify-content: space-around;
+    width: 30rem;
+    position: relative;
+}
+
+.list:nth-child(1)::before {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 30px;
+    border: 1px solid gray;
+    width: 2.2rem;
+}
+
+.list li {
+    list-style-type: none;
+}
+
+.search-icon svg {
+    width: 1rem;
+    margin-top: .3rem;
+    
+}
+
+.nav-button {
+    border-radius: 10px;
+    height: 2rem;
+    width: 7rem;
+    margin-left: 1rem;
+    font-size: 1rem;
+    font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+.button-group {
+    justify-content: space-between;
+}
+
+
+
+[aria-label="navbar"] {
+    margin: 3rem 6rem;
+}
+
+
+
+
+/* hero image section */
+
+[aria-label="banner"] {
+    margin: 3rem 6rem;
+}
+
+.hero-container {
+    position: relative;
+}
+
+.square {
+    position: absolute;
+    top: 12rem;
+    left: 8rem;
+}
+.square img {
+    width: 18rem;
+}
+
+.star {
+    position: absolute;
+    top: -43px;
+    right: 215px;
+
+}
+.star img {
+    width: 3rem;
+}
+
+.globe {
+    position: absolute;
+    right: -70px;
+    bottom: 126px;
+}
+.globe img {
+    width: 3rem;
+}
+
+.image-container {
+    position: relative;
+}
+.image-container img {
+    width: 22.5rem;
+}
+
+
+/* page content section */
+.hero-container-right {
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 8rem;
+    height: 63vh;
+}
+
+.hero-heading {
+    font-size: 3rem;
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+.hero-description {
+    margin-top: -4rem;
+    font-weight: lighter;
+    font-size: .8rem;
+    text-align: center;
+    width: 74%;
+    font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+}
+
+.button-email {
+    width: 12rem;
+    height: 2rem;
+    border-radius: 10px;
+    font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+.button-join {
+    width: 7rem;
+    height: 2rem;
+    border-radius: 10px;
+    font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+.footer {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 5rem;
+}
+
+.icons img {
+    width: 2rem;
+    margin:0 1rem;
+}
+
+.contact-heading {
+    color: #758283;
+}
